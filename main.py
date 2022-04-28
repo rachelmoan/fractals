@@ -54,6 +54,7 @@ def draw_koch_stool(turtle, level):
         draw_koch_stool(turtle, level-1)
 
 
+
 # draw the tree
 
 tree = turtle.Turtle()
@@ -63,9 +64,12 @@ tree.hideturtle()
 # make the drawing face upward 
 tree.setheading(90)
 tree.color('green')
-#draw_tree(tree, 50, 5, 30)
-#turtle.mainloop()
+draw_tree(tree, 50, 5, 30)
+turtle.mainloop()
 
+
+'''
+#uncomment whatever you want to draw
 
 # draw the koch curve
 
@@ -76,8 +80,8 @@ koch.hideturtle()
 
 for i in range(3):
   #draw_koch_stool(koch, 200, 3)
-  draw_koch_curve(koch, 4, 200, 3, 60)
+  #draw_koch_curve(koch, 3, 200, 3, 60)
   koch.right(120)
 turtle.mainloop()
 
-
+'''
